@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "author": "Yasmin Cordeiro",
+    "editor": "wokwi",
+    "parts": [
+      {
+        "type": "board-pi-pico-w",
+        "id": "pico",
+        "top": 0,
+        "left": 0,
+        "attrs": { "builder": "pico-sdk" }
+      },
+      { "type": "wokwi-servo", "id": "servo1", "top": -21.2, "left": 134.4, "attrs": {} }
+    ],
+    "connections": [
+      [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+      [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+      [ "pico:GND.8", "servo1:GND", "black", [ "v-3.25", "h61.46" ] ],
+      [ "pico:3V3", "servo1:V+", "red", [ "v-12.85", "h61.46" ] ],
+      [ "pico:GP12", "servo1:PWM", "green", [ "h-15.65", "v54.39", "h144" ] ]
+    ],
+    "dependencies": {}
+  }
