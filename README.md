@@ -158,4 +158,10 @@ ninja
 4. **Interação com o Simulador**
     - Inicie a simulação no vscode com o auxílio da extensão Wokwi ou acesse [este link](https://wokwi.com/projects/422643086287527937).
 
+## Vídeo de Demonstração
 
+[Clique aqui](https://youtu.be/Mgl2TX7C3ZM)
+
+---
+### Autora:
+Yasmin Cordeiro de Souza Meira
