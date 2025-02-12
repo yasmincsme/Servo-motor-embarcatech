@@ -128,10 +128,12 @@ Se chamarmos `set_servo_position(slice, 1470)`, o servo irá para **90°**.
 
 A seguir, é possível ver a execução do projeto no vscode através da extensão Wokwi e, também, a demonstração no harware físico com o auxílio da placa BitDogLab.
 
+<div align="center">
+
 ![Demostração no Simulador](docs/new_pwm.gif)
-
-
-
+<br>
+![Demostração no Simulador](docs/pwm.gif)
+</div>
 
 ## Instruções de Uso
 
